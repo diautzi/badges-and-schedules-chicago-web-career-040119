@@ -23,7 +23,6 @@ def assign_rooms(speakers)
   speakers.each_with_index do |name, index|  
     # push the message to our empty array
     room_message << "Hello, #{name}! You'll be assigned to room #{index + 1}!"
-    # we increment room number
   end
   # we return room_message
   # print room_message
