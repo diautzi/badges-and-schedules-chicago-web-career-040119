@@ -16,7 +16,6 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(speakers)
-  # we declare room number starting at #1
   # we create empty array that return the message
   room_message=[]
   # loop thru our speakers array
