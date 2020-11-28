@@ -35,8 +35,8 @@ def printer(speakers)
     puts message
   end
   # room_message = assign_rooms(speakers) >> if we wanted to store our method in a new variable first
-  room_message = assign_rooms(speakers)
-  room_message.each do |message|
+    room_message = assign_rooms(speakers)
+    room_message.each do |message|
     puts message
   end
 end
