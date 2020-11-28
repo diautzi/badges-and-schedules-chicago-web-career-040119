@@ -29,13 +29,12 @@ def assign_rooms(speakers)
 end
 
 def printer(speakers)
-               # we loop thru our messages from our batch_badge_creator method
+  # we loop thru our messages from our batch_badge_creator method
   batch_badge_creator(speakers).each do |message|
-            # and we print a message for each speaker
+  # and we print a message for each speaker
     puts message
   end
-  
-         # room_message = assign_rooms(speakers) >> if we wanted to store our method in a new variable first
+  # room_message = assign_rooms(speakers) >> if we wanted to store our method in a new variable first
   room_message = assign_rooms(speakers)
   room_message.each do |message|
     puts message
