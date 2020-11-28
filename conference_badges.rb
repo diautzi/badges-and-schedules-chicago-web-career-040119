@@ -17,7 +17,6 @@ end
 
 def assign_rooms(speakers)
   # we declare room number starting at #1
-  # room_number = 1
   # we create empty array that return the message
   room_message=[]
   # loop thru our speakers array
