@@ -28,7 +28,7 @@ def assign_rooms(speakers)
     # room_number +=1
   end
   # we return room_message
-  puts room_message
+  print room_message
   room_message
 end
 
