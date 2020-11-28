@@ -44,3 +44,5 @@ def printer(speakers)
     puts message
   end
 end
+
+assign_rooms(['Dia', 'Lili', 'Soni'])
